@@ -80,5 +80,4 @@ def edit():
             flash(f"Your image has been processed and is available <a href='/{new}' target='_blank'>here</a>")
             return render_template("index.html")
     return render_template("index.html")
-
-app.run(debug=True, port=5001)
+app.run(debug=True,port=5001)
